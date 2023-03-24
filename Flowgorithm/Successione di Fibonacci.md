@@ -12,7 +12,7 @@ Il settimo termine è la somma del quinto e del sesto termine: 2 + 5 = 7.
 E così via, continuando a sommare i due termini precedenti per ottenere il termine successivo nella successione di Fibonacci.
 
 Per calcolare la [successione di Fibonacci](https://it.wikipedia.org/wiki/Successione_di_Fibonacci), è possibile utilizzare la seguente formula matematica: $f_n = f_{n-1} + f_{n-2}$
-dove stem:[f_n] rappresenta l'ennesimo termine della successione.
+dove $f_n$ rappresenta l'ennesimo termine della successione.
 
 ## Indicazioni generali
 Per svolgere l'esercizio su Flowgorithm, è necessario utilizzare un ciclo FOR che eseguirà il calcolo per un determinato numero di volte, ovvero il numero di termini della successione di Fibonacci che si vuole ottenere.
