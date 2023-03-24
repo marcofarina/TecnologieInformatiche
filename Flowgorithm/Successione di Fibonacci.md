@@ -18,9 +18,9 @@ dove stem:[f_n] rappresenta l'ennesimo termine della successione.
 Per svolgere l'esercizio su Flowgorithm, è necessario utilizzare un ciclo FOR che eseguirà il calcolo per un determinato numero di volte, ovvero il numero di termini della successione di Fibonacci che si vuole ottenere.
 
 * Chiedere all'utente di inserire il numero di termini della successione di Fibonacci che si vuole ottenere.
-* Inizializzare due variabili, una per il primo termine $f_0$ e una per il secondo termine stem:$f_1$, entrambe a 0.
+* Inizializzare due variabili, una per il primo termine $f_0$ e una per il secondo termine $f_1$, entrambe a 0.
 * Utilizzare il ciclo `for` per calcolare i successivi termini della successione fino al termine desiderato.
 * All'interno del ciclo `for`, assegnare alla variabile temporanea il valore della somma tra $f_0$ e $f_1$.
 * Stampare il valore della variabile temporanea.
-* Assegnare alla variabile $f_0$ il valore di $f_1$ e alla variabile $f_1]$ il valore della variabile temporanea.
+* Assegnare alla variabile $f_0$ il valore di $f_1$ e alla variabile $f_1$ il valore della variabile temporanea.
 * Il ciclo `for` termina quando si sono calcolati tutti i termini.
