@@ -15,7 +15,7 @@ Per calcolare la [successione di Fibonacci](https://it.wikipedia.org/wiki/Succes
 dove $f_n$ rappresenta l'ennesimo termine della successione.
 
 ## Indicazioni generali
-Per svolgere l'esercizio su Flowgorithm, è necessario utilizzare un ciclo FOR che eseguirà il calcolo per un determinato numero di volte, ovvero il numero di termini della successione di Fibonacci che si vuole ottenere.
+Per svolgere l'esercizio su Flowgorithm, è necessario utilizzare un ciclo `for` che eseguirà il calcolo per un determinato numero di volte, ovvero il numero di termini della successione di Fibonacci che si vuole ottenere.
 
 * Chiedere all'utente di inserire il numero di termini della successione di Fibonacci che si vuole ottenere.
 * Inizializzare due variabili, una per il primo termine $f_0$ e una per il secondo termine $f_1$, entrambe a 0.
