@@ -9,11 +9,12 @@ Per calcolare la [successione di Fibonacci](https://it.wikipedia.org/wiki/Succes
 
 ### I conigli e la Mole Antonelliana
 La successione di Fibonacci deve il suo nome a [Leonardo Fibonacci](https://it.wikipedia.org/wiki/Leonardo_Fibonacci), un matematico italiano del XIII secolo. Inizialmente, la successione non aveva una particolare importanza, ma diventò famosa quando Fibonacci la utilizzò per risolvere un problema legato alla riproduzione dei conigli. Il problema proposto era il seguente:
+
+<img align="right" width="200px" alt="Sequenza di Fibonacci sulla Mole Antonelliana" src="/media/Mole-Antonelliana-sequenza-Fibonacci.jpg">
+
 > Se un paio di conigli si riproduce ogni mese e ogni coppia di conigli appena nati diventa fertile dopo un mese, quanti conigli ci saranno al termine di un anno?
 
 Fibonacci risolse brillantemente il problema utilizzando il concetto di successione matematica. Egli considerò che ogni coppia di conigli appena nati sarebbe diventata fertile il mese successivo, e quindi si sarebbe riprodotta. In questo modo, ogni mese il numero di coppie di conigli sarebbe stato la somma delle coppie di conigli presenti due mesi prima (le coppie di conigli adulte), e questo comportamento seguiva proprio la successione di Fibonacci.
-
-<img align="right" width="200px" alt="Sequenza di Fibonacci sulla Mole Antonelliana" src="/media/Mole-Antonelliana-sequenza-Fibonacci.jpg">
 
 Oggi la successione di Fibonacci è utilizzata in molti campi diversi, dalla biologia all'arte, e si può trovare anche nella decorazione della Mole Antonelliana a Torino, in cui è presente la successione di Fibonacci sotto forma di un'installazione luminosa artistica chiamata "Il volo dei numeri", a opera dell'artista Mario Merz. Questo dimostra come questa successione sia ancora oggi molto presente nella nostra cultura e nella nostra vita quotidiana.
 
