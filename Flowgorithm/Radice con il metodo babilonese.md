@@ -36,7 +36,7 @@ Per svolgere l'esercizio su Flowgorithm, è necessario utilizzare un ciclo `for`
 Sarà quindi necessario svolgere i seguenti passi:
 
 * Chiedere all'utente di inserire il numero di cui vuoi calcolare la radice quadrata
-* Impostare il numero di iterazioni desiderate (da stabilire in base a quanto volete rendere precisa l'approssimazione del caclolo della radice quadrata)
+* Impostare il numero di iterazioni desiderate (da stabilire in base a quanto volete rendere precisa l'approssimazione del calcolo della radice quadrata)
 * Inizializzare la variabile che rappresenta l'approssimazione con il valore del numero diviso 2
 * Ripetere il numero di volte desiderato il calcolo della media esplicitato precedentemente.
 * Visualizzare in output il valore reale della radice quadrata (tramite la funzione `sqrt()` di Flowgorithm) e confrontarlo con il valore dell'approssimazione dato dal metodo babilonese.
