@@ -27,7 +27,7 @@ Questo metodo per il calcolo della radice quadrata ha una lunga storia. È stato
 
 Nella figura qui accanto si può osservare una tavoletta babilonese che riproduce un esercizio matematico per trovare la diagonale di un quadrato ricorrendo proprio al calcolo della radice quadrata.
 
-In Europa, il metodo è stato introdotto da Leonardo Pisano, noto come Fibonacci, nel quattordicesimo capitolo del suo libro "_Liber Abbaci_" del 1202, ispirandosi alle dalle opere di matematici arabi come al-Khwarizmi e Abu Kamil.
+In Europa, il metodo è stato introdotto da Leonardo Pisano, noto come Fibonacci, nel quattordicesimo capitolo del suo libro "_Liber Abbaci_" del 1202, ispirandosi alle dalle opere di matematici arabi come al-Khwarizmi e Abu Kamil.[^1]
 
 ## L'algoritmo babilonese per calcolare la radice quadrata
 
@@ -40,3 +40,5 @@ Sarà quindi necessario svolgere i seguenti passi:
 * Inizializzare la variabile che rappresenta l'approssimazione con il valore del numero diviso 2
 * Ripetere il numero di volte desiderato il calcolo della media esplicitato precedentemente.
 * Visualizzare in output il valore reale della radice quadrata (tramite la funzione `sqrt()` di Flowgorithm) e confrontarlo con il valore dell'approssimazione dato dal metodo babilonese.
+
+[^1]: https://www.matematicamente.it/magazine/19aprile2013/183-Mazzucato-Radice.pdf
