@@ -21,9 +21,9 @@ dove $x_i$ è l'approssimazione ottenuta al passo $i$, e $n$ è il numero di par
 
 ### Curiosità
 
-Questo metodo per il calcolo della radice quadrata ha una lunga storia. È stato scoperto dalla civiltà babilonese attorno al $-2000$ e fu utilizzato anche da altre culture antiche, come quella egizia e quella indiana. L'algoritmo veniva usato per calcolare radici quadrate di numeri molto grandi, come ad esempio per calcolare la lunghezza di un lato di un quadrato avente un'area pari a quella di un terreno coltivato.
-
 <img align="right" width="200px" alt="Tavoletta babilonese" src="/media/tavoletta-babilonese.jpeg">
+
+Questo metodo per il calcolo della radice quadrata ha una lunga storia. È stato scoperto dalla civiltà babilonese attorno al $-2000$ e fu utilizzato anche da altre culture antiche, come quella egizia e quella indiana. L'algoritmo veniva usato per calcolare radici quadrate di numeri molto grandi, come ad esempio per calcolare la lunghezza di un lato di un quadrato avente un'area pari a quella di un terreno coltivato.
 
 Nella figura qui accanto si può osservare una tavoletta babilonese che riproduce un esercizio matematico per trovare la diagonale di un quadrato ricorrendo proprio al calcolo della radice quadrata.
 
