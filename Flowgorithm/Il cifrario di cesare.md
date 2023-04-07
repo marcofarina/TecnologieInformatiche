@@ -59,6 +59,6 @@ Per la realizzazione di questo algoritmo in Flowgorithm è indispensabile impara
 
 Realizzare su Flowgorithm sia l'algoritmo cifrante che quello decifrante.
 
-[^1] Nei testi riguardanti la crittografia solitamente la chiave crittografica si rappresenta con la lettera K, iniziale di _key_, _chiave_.
+[^1]: Nei testi riguardanti la crittografia solitamente la chiave crittografica si rappresenta con la lettera K, iniziale di _key_, _chiave_.
 
-[^2] Per chi ha studiato qualcosa di algebra, stiamo lavorando nel gruppo $Z_{26}$.
+[^2]: Per chi ha studiato qualcosa di algebra, stiamo lavorando nel gruppo $Z_{26}$.
