@@ -33,13 +33,13 @@ Anche se Cesare usava uno scorrimento di tre posizioni, non siamo obbligati a se
 
 Immaginiamo quindi di scegliere un numero intero $K$[^1], che indica di quante posizioni scorrere nell'alfabeto. Immaginando di rappresentare le lettere dell'alfabeto dalla A alla Z con i numeri da 0 a 25, il processo di cifratura sarà semplicemente la somma tra la lettera e la chiave $K$: indicando con $C$ la lettera cifrata e con $M$ la lettera del messaggio, avremo la regola di cifratura:
 
-$$ C = M + K (\mod 26) $$
+$$ C = M + K\, (\pmod 26) $$
 
 In questa equazione $(\mod 26)$ indica l'operazione aritmetica di modulo, che introdurremo più avanti. Per il momento la possiamo semplicemente vedere in questi termini: se la somma $M + K$ è maggiore o uguale a 26, allora si sottrae 26 al risultato.[^2]
 
 Il procedimento che trasforma il messaggio cifrato in quello originario viene detto **decifratura**. Nel cifrairio di Cesare sarà sufficiente calcolare
 
-$$ M = C - K (mod 26) $$
+$$ M = C - K\, (\pmod 26) $$
 
 ### L'algoritmo del Cifrario di Cesare
 Possiamo ora stabilire un algoritmo di cifratura:
