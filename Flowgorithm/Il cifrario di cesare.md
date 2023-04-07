@@ -35,7 +35,7 @@ Immaginiamo quindi di scegliere un numero intero $K$[^1], che indica di quante p
 
 $$ C = M + K \pmod{26} $$
 
-In questa equazione $(\mod 26)$ indica l'operazione aritmetica di modulo, che introdurremo più avanti. Per il momento la possiamo semplicemente vedere in questi termini: se la somma $M + K$ è maggiore o uguale a 26, allora si sottrae 26 al risultato.[^2]
+In questa equazione $\pmod{26}$ indica l'operazione aritmetica di modulo, che introdurremo più avanti. Per il momento la possiamo semplicemente vedere in questi termini: se la somma $M + K$ è maggiore o uguale a 26, allora si sottrae 26 al risultato.[^2]
 
 Il procedimento che trasforma il messaggio cifrato in quello originario viene detto **decifratura**. Nel cifrairio di Cesare sarà sufficiente calcolare
 
