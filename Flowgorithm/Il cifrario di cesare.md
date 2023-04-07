@@ -9,19 +9,19 @@ Fin dalle origini della comunicazione, gli esseri umani hanno sempre avuto la ne
 
 Nel libro viene raccontato un episodio riguardante Istieo, tiranno di Mileto, che voleva comunicare in modo segreto con Aristagora, per incitarlo alla ribellione contro Dario. Per eludere il controllo dei soldati, Istieo scrisse il messaggio sulla nuca rasata di un suo servitore, aspettò che i capelli ricrescessero, ed infine inviò il messaggero al destinatario. Il servitore aveva ricevuto l'ordine di radesi la testa e di mostrarla ad Aristagora, il quale potè leggere nuovamente il messaggio.
 
-Su questa tecnica possiamo fare un'importante considerazione: il metodo usato da Istieo è valido fintanto che non viene scoperto dai suoi avversari. Se la tecnica dovesse essere scoperta, le parti che vogliono comunicare segretamente dovranno inventare un nuovo metodo, il che può risultare scomodo. La sicurezza della comunicazione, in questo caso, si basa sulla segretezza del metodo. 
+Su questa tecnica possiamo fare un'importante considerazione: il metodo usato da Istieo è valido fintanto che non viene scoperto dai suoi avversari. Se la tecnica dovesse essere scoperta, chi vuole comunicare segretamente dovrà inventare un nuovo metodo, il che può risultare scomodo. La sicurezza della comunicazione, in questo caso, si basa sulla segretezza del metodo. 
 
-Per risolvere quest'ultimo problema è necessario aggiungere un nuovo ingrediente alla tecnica di occultamento del messaggio: un'informazione da mantenere segreta senza la quale è impossibile ricostruire il messaggio. Usando questo stratagemma ciò che rende sicura la comunicazione si sposta dalla segretezza del metodo, alla segretezza di un pezzo dell'informazione. Nasce così la **crittografia**, ovvero l'arte di proteggere l'informazione da occhi indiscreti _trasformando_ il messaggio (invece di _nasconderlo_) in modo che solo il destinatario previsto possa leggerlo.
+Per risolvere quest'ultimo problema è necessario aggiungere un nuovo ingrediente alla tecnica di occultamento del messaggio: un'informazione da mantenere segreta, senza la quale è impossibile ricostruire il messaggio. Usando questo stratagemma ciò che rende sicura la comunicazione si sposta dalla segretezza del metodo, alla segretezza di un pezzo dell'informazione. Nasce così la **crittografia**, ovvero l'arte di proteggere l'informazione da occhi indiscreti _trasformando_ il messaggio (invece di _nasconderlo_) in modo che solo il destinatario previsto possa leggerlo.
 
 ## Il cifrario di Cesare
 
 > _Extant et ad Ciceronem, item ad familiares domesticis de rebus, in quibus, si qua occultius perferenda erant, per notas scripsit, id est sic structo litterarum ordine, ut nullum verbum effici posset: quae si qui investigare et persequi velit, quartam elementorum litteram, id est D pro A et perinde reliquas commutet._
 > 
-> Svetonio, _De vita Caesarum_, Libro I, capitolo 56
+> Svetonio, _De vita Caesarum_, Libro I, paragrafo 56
 
 La prima idea per migliorare la protezione dei messaggi che vanno trasmessi segretamente è quella di sostituire i segni che compongono la scrittura con altri, seguendo una certa regola. Questa tecnica viene chiamata di **sostituzione**.
 
-Uno dei primi esempi di trasformazione del messaggio per sostituzione è quella descritta da Svetonio nella sua biografia di Giulio Cesare. Egli racconta che nella sua corrispondenza, Cesare era solito a sostituire ogni lettera delle parole del messaggio con la lettera che occupa tre posizioni più avanti nell'alfabeto, quindi A con D, B con E, C con F e via dicento. In questo metodo l'alfabeto va immaginato come "circolare", quindi lo scorrimento dopo la lettera Z ricomincia dalla A.
+Uno dei primi esempi di trasformazione del messaggio per sostituzione è quella descritta da Svetonio nella sua biografia di Giulio Cesare. Egli racconta che, nella sua corrispondenza, Cesare era solito sostituire ogni lettera delle parole del messaggio con la lettera che occupa tre posizioni più avanti nell'alfabeto, quindi A con D, B con E, C con F e via dicendo. In questo metodo l'alfabeto va immaginato come "circolare", quindi lo scorrimento dopo la lettera Z ricomincia dalla A.
 
 ```
 A B C D E F G H I J K L M N O P Q R S T U V X Y Z (testo in chiaro)
@@ -37,7 +37,7 @@ $$ C = M + K \pmod{26} $$
 
 In questa equazione $\pmod{26}$ indica l'operazione aritmetica di modulo, che introdurremo più avanti. Per il momento la possiamo semplicemente vedere in questi termini: se la somma $M + K$ è maggiore o uguale a 26, allora si sottrae 26 al risultato.[^2]
 
-Il procedimento che trasforma il messaggio cifrato in quello originario viene detto **decifratura**. Nel cifrairio di Cesare sarà sufficiente calcolare
+Il procedimento che trasforma il messaggio cifrato in quello originario viene detto **decifratura**. Nel cifrario di Cesare sarà sufficiente calcolare
 
 $$ M = C - K \pmod{26} $$
 
@@ -61,4 +61,4 @@ Realizzare su Flowgorithm sia l'algoritmo cifrante che quello decifrante.
 
 [^1]: Nei testi riguardanti la crittografia solitamente la chiave crittografica si rappresenta con la lettera K, iniziale di _key_, _chiave_.
 
-[^2]: Per chi ha studiato qualcosa di algebra, stiamo lavorando nel gruppo $Z_{26}$.
+[^2]: Per chi ha studiato algebra, stiamo lavorando nel gruppo $Z_{26}$.
