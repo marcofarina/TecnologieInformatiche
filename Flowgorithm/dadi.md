@@ -28,11 +28,11 @@ $$ P(6) = \frac{1}{6} $$
 
 Questo significa che ogni sei lanci in media otterrò un 6.
 
-Possiamo verificare con un esperimento se l'algoritmo di generazione di numeri casuali di Flowgorithm rispecchia questa probabilità.
-
-È qui che entra in gioco la statistica. Per effettuare una misurazione dobbiamo produrre dei dati.
+Possiamo verificare con un esperimento se l'algoritmo di generazione di numeri casuali di Flowgorithm rispecchia questa probabilità. È qui che entra in gioco la statistica. Per effettuare una misurazione dobbiamo produrre dei dati.
 
 #### Esercizio 1: simulazione del lancio di 1000000 di dadi da 6 facce
-Scrivi un algoritmo che lancia per $1\000\000$ volte un dado da $6$ facce e conta quante volte è uscito un $6$.
+Scrivi un algoritmo che lancia per $1000000$ volte un dado da $6$ facce e conta quante volte è uscito un $6$.
 
-La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, quindi ci aspettiamo di avere come output un conteggio di circa $166\,666$.
+La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, quindi ci aspettiamo di avere come output un conteggio di circa $166666$.[^1]
+
+[^1]: Può succedere che mandando in esecuzione questo algoritmo Flowgorithm sembri bloccato: è normale! Dovendo generare un milione di numeri impiegherà un po' di tempo, che dipende anche dalla potenza del tuo computer. Dopo aver avviato l'algoritmo dovrai attendere per un po' prima di vedere il risultato.
