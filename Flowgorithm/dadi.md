@@ -20,7 +20,7 @@ La risposta è data dal concetto di **pseudocasualità**: le funzioni `Random()`
 Le sequenze pseudocasuali sono ampiamente utilizzate in applicazioni informatiche che richiedono una fonte di casualità, come la crittografia (che studieremo in quinta), la simulazione di eventi casuali e la creazione di giochi.
 
 ## Misuriamo la (pseudo)casualità di Flowgorithm
-In questo esercizio misureremo empiricamente la "casualità" della generazione di numeri in Flowgorithm. Lo stesso esperimento può naturalmente essere ripeetuto con qualsiasi linguaggio di programmazione.
+In questo esercizio misureremo empiricamente la "casualità" della generazione di numeri in Flowgorithm. Lo stesso esperimento può naturalmente essere ripetuto con qualsiasi linguaggio di programmazione.
 
 Partiamo da un esempio molto semplice: se lanciamo un dado con sei facce numerate da 1 a 6 e vogliamo sapere qual è la _probabilità_ di ottenere un 6, sappiamo di avere un caso favorevole su un totale di sei casi totali, uno per ogni faccia del dado. Quindi possiamo affermare che
 
@@ -33,6 +33,6 @@ Possiamo verificare con un esperimento se l'algoritmo di generazione di numeri c
 È qui che entra in gioco la statistica. Per effettuare una misurazione dobbiamo produrre dei dati.
 
 #### Esercizio 1: simulazione del lancio di 1000000 di dadi da 6 facce
-Scrivi un algoritmo che lancia per $1\,000\,000$ volte un dado da $6$ facce e conta quante volte è uscito un $6$.
+Scrivi un algoritmo che lancia per $1\000\000$ volte un dado da $6$ facce e conta quante volte è uscito un $6$.
 
 La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, quindi ci aspettiamo di avere come output un conteggio di circa $166\,666$.
