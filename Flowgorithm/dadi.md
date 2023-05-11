@@ -32,7 +32,7 @@ Possiamo verificare con un esperimento se l'algoritmo di generazione di numeri c
 
 È qui che entra in gioco la statistica. Per effettuare una misurazione dobbiamo produrre dei dati.
 
-#### Esercizio 1: simulazione del lancio di 100000 dadi da 6 facce
-Scrivi un algoritmo che lancia per $100000$ volte un dado da $6$ facce e conta quante volte è uscito un $6$.
+#### Esercizio 1: simulazione del lancio di 1000000 di dadi da 6 facce
+Scrivi un algoritmo che lancia per $1\,000\,000$ volte un dado da $6$ facce e conta quante volte è uscito un $6$.
 
-La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, quindi ci aspettiamo di avere come output un conteggio di circa $16650$.
+La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, quindi ci aspettiamo di avere come output un conteggio di circa $166\,666$.
