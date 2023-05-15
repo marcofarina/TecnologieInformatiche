@@ -1,21 +1,21 @@
 # Dadi, casualità e D&D
 In Dungeons & Dragons e molti altri giochi di ruolo il lancio dei dadi è usato per determinare l'esito delle prove e degli attacchi.
 
-In questa e in molte altre categorie di giochi, chi ha una solida comprensione delle probabilità e della frequenza con cui determinati risultati possono essere ottenuti attraverso il lancio dei dadi, può trarre un vantaggio a lungo termine rispetto a colore che non hanno questa conoscenza.
+In questa e in molte altre categorie di giochi, chi ha una solida comprensione delle probabilità e della frequenza con cui determinati risultati possono essere ottenuti attraverso il lancio dei dadi, può trarre un vantaggio a lungo termine rispetto a coloro che non hanno questa conoscenza.
 
 ## Probabilità e statistica
-Il calcolo delle probabilità e la statistica sono due discipline che si occupano di valutare la probabilità di eventi e comprendere quanto è probabile che accadano. Ad esempio, nel lancio di una moneta, si sa che c'è una probabilità del 50% di ottenere testa e una del 50% di ottenere croce. Questo tipo di analisi è noto come "_calcolo delle **probabilità**_".
+Il calcolo delle probabilità e la statistica sono due discipline che si occupano di valutare la probabilità di eventi e comprendere quanto è probabile che accadano. Ad esempio, nel lancio di una moneta, si sa che c'è una probabilità del 50% di ottenere testa e del 50% di ottenere croce. Questo tipo di analisi è noto come "_calcolo delle **probabilità**_".
 
 D'altra parte, la **statistica** viene impiegata per analizzare dati derivanti da esperimenti e rispondere a domande specifiche, come ad esempio "_quanti studenti nella mia scuola hanno una valutazione superiore a 8 in informatica?_".
 
 In generale, si può affermare che il calcolo delle probabilità si concentra sulla valutazione di eventi teorici, mentre la statistica si occupa di analizzare osservazioni basate sulla realtà.
 
-### Pseudocasualità
+### Pseudo-casualità
 Nella nostra definizione degli algoritmi abbiamo sottolineato che essi sono _deterministici_, il che significa che sono completamente prevedibili: dato un determinato input, l'algoritmo produrrà sempre lo stesso output, senza alcuna variazione o casualità, indipendentemente da quante volte venga eseguito.
 
-Ma come è possibile, quindi, che nei linguaggi di programmazione esistano funzioni che restituiscono valori casuali, come ad esempio la funzione `Random()` in Flowgorithm?
+Ma come è possibile, quindi, che nei linguaggi di programmazione esistano funzioni che restituiscono valori casuali, come ad esempio la funzione `Random(n)` in Flowgorithm?
 
-In realtà, queste funzioni non violano la natura deterministica degli algoritmi. Quello che fanno è simulare l'aspetto di casualità attraverso un meccanismo chiamato _generazione pseudo-casuale_. Questo significa che, sebbene i valori prodotti possano sembrare casuali, in realtà sono determinati da un processo matematico ben definito.
+In realtà, queste funzioni non violano la natura deterministica degli algoritmi. Quello che fanno è simulare un comportamento aleatorio attraverso un meccanismo chiamato _generazione pseudo-casuale_. Questo significa che, sebbene i valori prodotti possano sembrare casuali, in realtà sono determinati da un processo matematico ben definito.
 
 La funzione `Random()` utilizza un algoritmo che genera una sequenza di numeri basati su un _seed_ (seme), cioè un valore iniziale. Se si utilizza lo stesso seme, la sequenza di numeri generata sarà sempre la stessa. Tuttavia, cambiando il seme, si otterrà una sequenza diversa. In molti casi, il seme viene impostato utilizzando un _timestamp_ (il tempo attuale del sistema) come punto di partenza. Poiché il tempo di sistema cambia costantemente, l'uso di questa informazione come seme può fornire una sequenza apparentemente casuale di numeri.
 
@@ -26,7 +26,7 @@ Le sequenze pseudocasuali sono ampiamente utilizzate in applicazioni informatich
 ## Misuriamo la casualità di Flowgorithm
 In questo esercizio condurremo un'analisi empirica[^1] sulla "casualità" della generazione di numeri in Flowgorithm. Tuttavia, lo stesso esperimento può essere facilmente ripetuto utilizzando qualsiasi altro linguaggio di programmazione.
 
-Iniziamo con un esempio molto semplice: supponiamo di lanciare un dado a sei facce numerate da 1 a 6 e vogliamo determinare la _probabilità_ di ottenere un 6. Sappiamo che abbiamo un caso favorevole su un totale di sei possibili risultati, corrispondenti alle facce del dado. Pertanto, possiamo affermare che:
+Iniziamo con un esempio molto semplice: supponiamo di lanciare un dado a sei facce numerate da 1 a 6 e voler determinare la _probabilità_ di ottenere un 6. Sappiamo che abbiamo un caso favorevole su un totale di sei possibili risultati, corrispondenti alle facce del dado. Pertanto, possiamo affermare che:
 
 $$ P(6) = \frac{1}{6} $$
 
@@ -43,7 +43,7 @@ La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, 
 
 <img align="right" width="300px" alt="I dadi di D&D" src="/immagini/dadi.jpeg">
 
-In Dungeons & Dragons (D&D) e in molti altri giochi di ruolo, vengono utilizzati diversi tipi di dadi per determinare gli esiti delle azioni e delle situazioni all'interno del gioco. Uno dei concetti fondamentali riguarda la notazione "$x$d$y$", dove $x$ rappresenta il numero di lanci e $y$ indica il tipo di dado utilizzato. Ad esempio, `1d20` indica il lancio di un dado a venti facce, mentre `2d6` rappresenta il lancio di due dadi a sei facce.
+In Dungeons & Dragons (D&D) e in molti altri giochi di ruolo, vengono utilizzati diversi tipi di dadi per determinare gli esiti delle azioni e delle situazioni all'interno del gioco. Uno dei concetti fondamentali è la notazione $x$ d $y$, dove $x$ rappresenta il numero di lanci e $y$ indica il tipo di dado utilizzato. Ad esempio, `1d20` indica il lancio di un dado a venti facce, mentre `2d6` rappresenta il lancio di due dadi a sei facce.
 
 Ogni tipo di dado ha un range di valori possibili. Ad esempio, un dado a quattro facce (d4) può generare valori da 1 a 4, mentre un a venti facce (d20) può produrre valori da 1 a 20. La scelta del tipo di dado dipende dall'azione o dalla situazione in cui viene utilizzato.
 
