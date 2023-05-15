@@ -40,6 +40,9 @@ Scrivi un algoritmo che lancia per $1000000$ volte un dado da $6$ facce e conta 
 La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, quindi ci aspettiamo di avere come output un conteggio di circa $166666$.[^2]
 
 ### I dadi di Dungeons & Dragons
+
+<img align="right" width="300px" alt="I dadi di D&D" src="/immagini/dadi.jpeg">
+
 In Dungeons & Dragons (D&D) e in molti altri giochi di ruolo, vengono utilizzati diversi tipi di dadi per determinare gli esiti delle azioni e delle situazioni all'interno del gioco. Uno dei concetti fondamentali riguarda la notazione "$x$d$y$", dove $x$ rappresenta il numero di lanci e $y$ indica il tipo di dado utilizzato. Ad esempio, `1d20` indica il lancio di un dado a venti facce, mentre `2d6` rappresenta il lancio di due dadi a sei facce.
 
 Ogni tipo di dado ha un range di valori possibili. Ad esempio, un dado a quattro facce (d4) può generare valori da 1 a 4, mentre un a venti facce (d20) può produrre valori da 1 a 20. La scelta del tipo di dado dipende dall'azione o dalla situazione in cui viene utilizzato.
