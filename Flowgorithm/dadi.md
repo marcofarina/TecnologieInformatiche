@@ -54,7 +54,7 @@ I giocatori esperti sanno che lanciare `1d12` e `2d6` non è la stessa cosa! Rea
 - la prima funzione lancia 1000 volte 1d12 e conta quante volte è uscito ognuno dei numeri da 1 a 12.[^3]
 - la seconda funzione lancia 1000 volte 2d6 e conta quante volte è uscito ognuno dei numeri da 1 a 12.
 
-Al termine dell'esercizio esegui l'algoritmo (anche più di una volta se vuoi) e produci una relazione che riporti i dati che hai risponda alle seguenti domande:
+Al termine dell'esercizio esegui l'algoritmo (anche più di una volta se vuoi) e produci una relazione che riporti i dati che hai elaborato e rispondi alle seguenti domande:
 1. Qual è il valore minimo che si può ottenere lanciando 1d12? E lanciando 2d6?
 2. Qual è il valore massimo che si può ottenere lanciando 1d12? E lanciando 2d6?
 3. Qual è la somma più probabile ottenibile lanciando 1d12? E lanciando 2d6?
