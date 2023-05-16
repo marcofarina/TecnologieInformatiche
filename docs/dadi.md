@@ -41,7 +41,7 @@ La teoria ci dice che circa $\frac{1}{6}$ di questi lanci dovrà essere un $6$, 
 
 ### I dadi di Dungeons & Dragons
 
-<img align="right" width="300px" alt="I dadi di D&D" src="/immagini/dadi.jpeg">
+<img align="right" width="300px" alt="I dadi di D&D" src="/docs/immaginiagini/dadi.jpeg">
 
 In Dungeons & Dragons (D&D) e in molti altri giochi di ruolo, vengono utilizzati diversi tipi di dadi per determinare gli esiti delle azioni e delle situazioni all'interno del gioco. Uno dei concetti fondamentali è la notazione $x$ d $y$, dove $x$ rappresenta il numero di lanci e $y$ indica il tipo di dado utilizzato. Ad esempio, `1d20` indica il lancio di un dado a venti facce, mentre `2d6` rappresenta il lancio di due dadi a sei facce.
 
