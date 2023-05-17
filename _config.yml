@@ -30,7 +30,7 @@ url: "https://marcofarina.github.io/tecnologie_informatiche/" # the base hostnam
 github_username:  marcofarina
 
 # Build settings
-theme: just-the-docs
+remote-theme: just-the-docs
 plugins:
   - jekyll-feed
 
